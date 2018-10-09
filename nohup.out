@@ -1,0 +1,6 @@
+  File "manage.py", line 14
+    ) from exc
+         ^
+SyntaxError: invalid syntax
+Unknown command: 'runserver8000'. Did you mean runserver?
+Type 'manage.py help' for usage.
