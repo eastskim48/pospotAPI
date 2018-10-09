@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include,url
+from pospot import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^crawling/', include('crawling.urls')),
+    url(r'^crawling/tagnum/(?P<pk>["[^ ㄱ-ㅣ가-힣]+"]+)$', views.tagnum, name='tagnum'),
+    url(r'^crawling/pictures', views.tagnum,name='pictures'),
 ]
