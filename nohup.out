@@ -4,3 +4,117 @@
 SyntaxError: invalid syntax
 Unknown command: 'runserver8000'. Did you mean runserver?
 Type 'manage.py help' for usage.
+Not Found: /crawling/tagnum/pictures/3
+[11/Oct/2018 08:39:01] "GET /crawling/tagnum/pictures/3 HTTP/1.1" 404 2302
+Not Found: /favicon.ico
+[11/Oct/2018 08:39:01] "GET /favicon.ico HTTP/1.1" 404 2257
+Not Found: /crawling/tagnum/3
+[11/Oct/2018 08:39:11] "GET /crawling/tagnum/3 HTTP/1.1" 404 2275
+Not Found: /favicon.ico
+[11/Oct/2018 08:39:11] "GET /favicon.ico HTTP/1.1" 404 2257
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 11, 2018 - 08:38:09
+Django version 2.1.2, using settings 'pospot.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Internal Server Error: /crawling/tagnum/3
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pospot/pospot/crawling/views.py", line 8, in tagnum
+    driver = webdriver.Chrome('chrome/chromedriver')
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py", line 73, in __init__
+    self.service.start()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 76, in start
+    stdin=PIPE)
+  File "/usr/lib/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: 'chrome/chromedriver'
+[11/Oct/2018 08:39:52] "GET /crawling/tagnum/3 HTTP/1.1" 500 101170
+Internal Server Error: /crawling/tagnum/
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pospot/pospot/crawling/views.py", line 8, in tagnum
+    driver = webdriver.Chrome('chrome/chromedriver')
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/selenium/webdriver/chrome/webdriver.py", line 73, in __init__
+    self.service.start()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/selenium/webdriver/common/service.py", line 76, in start
+    stdin=PIPE)
+  File "/usr/lib/python3.6/subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1344, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: 'chrome/chromedriver'
+[11/Oct/2018 08:40:18] "GET /crawling/tagnum/ HTTP/1.1" 500 101159
+Internal Server Error: /crawling/pictures
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tagnum() missing 1 required positional argument: 'pk'
+[11/Oct/2018 08:40:19] "GET /crawling/pictures HTTP/1.1" 500 59487
+Internal Server Error: /crawling/pictures
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tagnum() missing 1 required positional argument: 'pk'
+[11/Oct/2018 08:40:24] "GET /crawling/pictures HTTP/1.1" 500 59487
+Internal Server Error: /crawling/pictures
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tagnum() missing 1 required positional argument: 'pk'
+[11/Oct/2018 08:40:25] "GET /crawling/pictures HTTP/1.1" 500 59487
+Internal Server Error: /crawling/pictures/3
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tagnum() missing 1 required positional argument: 'pk'
+[11/Oct/2018 08:40:36] "GET /crawling/pictures/3 HTTP/1.1" 500 59507
+Not Found: /favicon.ico
+[11/Oct/2018 08:40:37] "GET /favicon.ico HTTP/1.1" 404 2256
+Internal Server Error: /crawling/pictures/3
+Traceback (most recent call last):
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: tagnum() missing 1 required positional argument: 'pk'
+[11/Oct/2018 08:41:33] "GET /crawling/pictures/3 HTTP/1.1" 500 59507
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 11, 2018 - 08:39:49
+Django version 2.1.2, using settings 'pospot.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
