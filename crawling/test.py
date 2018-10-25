@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 options=Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome('/usr/bin/chromedriver',chrome_options=options)
-driver.set_page_load_timeout(10)
+driver.set_page_load_timeout(30)
 driver.get('https://www.instagram.com/tags/paris')
 time.sleep(1) #안전성을 위해서 넣어야됨
 rst = driver.find_elements_by_class_name('g47SY')[0]
