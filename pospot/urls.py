@@ -20,6 +20,6 @@ from crawling import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^crawling/tagnum/(?P<pk>)', views.tagnum, name='tagnum'),
+    url(r'^crawling/tagnum', views.tagnum, name='tagnum'),
     url(r'^crawling/pictures', views.pictures,name='pictures'),
 ]
